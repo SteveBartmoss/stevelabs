@@ -1,11 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "../pages/home";
 import { Profile } from "../pages/profile";
+import { NavBar } from "../components/navbar/navbar";
 
 
 export function MainRouter(){
     return(
         <BrowserRouter>
+            <NavBar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/profile" element={<Profile />} />
