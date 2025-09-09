@@ -22,6 +22,8 @@ export function Profile(){
                     codeStats
                 }        
             </pre>
+
+            <h1>Te interesa algun proyecto ? Contacta conmigo</h1>
         </>
     )
 }
