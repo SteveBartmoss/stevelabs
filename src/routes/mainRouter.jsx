@@ -4,6 +4,7 @@ import { Profile } from "../pages/profile";
 import { NavBar } from "../components/navbar/navbar";
 import { Footer } from "../components/footer/footer";
 import { DivHome } from "../components/containers/containers";
+import { Proyecst } from "../pages/proyects";
 
 
 export function MainRouter() {
@@ -14,6 +15,7 @@ export function MainRouter() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/profile" element={<Profile />} />
+                    <Route path="/proyectos" element={<Proyecst />} />
                 </Routes>
             </DivHome>
             <Footer />
