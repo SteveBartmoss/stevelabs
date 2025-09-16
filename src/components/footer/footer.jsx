@@ -1,9 +1,9 @@
-
+import './footer.css'
 
 export function Footer(){
     return(
         <>
-            <div>
+            <div className='div-footer'>
 
                 <h1>Footer</h1>
                 <p>github</p>
@@ -11,6 +11,7 @@ export function Footer(){
                 <p>Blog</p>
                 <p>Contacto</p>
                 <p>Equipo</p>
+                
             </div>
         </>
     )
