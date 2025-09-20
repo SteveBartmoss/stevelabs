@@ -26,6 +26,10 @@ export function Proyecst(){
             </p>
 
             <h1>NeoFetch</h1>
+
+            <p>
+                wraper interesante para manejar las peticiones enm fetch de una manera simple
+            </p>
         </>
     )
 }
