@@ -3,3 +3,8 @@
     width: 100vw;
     flex-direction: row;
 }
+
+.div-center{
+    width: 80%;
+    margin: auto;
+}
