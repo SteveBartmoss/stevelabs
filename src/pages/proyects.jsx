@@ -1,3 +1,4 @@
+import { Card } from "../components/card/card";
 import { DivCenter } from "../components/containers/containers";
 
 
@@ -12,27 +13,34 @@ export function Proyecst() {
                 </p>
             </DivCenter>
 
-            <h1>HttpClient</h1>
+            <Card>
+                <h1>HttpClient</h1>
 
-            <p>
-                Un cliente ligero para probar apis, que no requiere nada mas que la
-                pila de tecnologias de node que ya se suele usar para desarrollar en
-                frame works como nest, express, react, vue o angular
-            </p>
+                <p>
+                    Un cliente ligero para probar apis, que no requiere nada mas que la
+                    pila de tecnologias de node que ya se suele usar para desarrollar en
+                    frame works como nest, express, react, vue o angular
+                </p>
+            </Card>
 
-            <h1>CronosJs</h1>
+            <Card>
+                <h1>CronosJs</h1>
 
-            <p>
-                Libreria simple para trabajar con fechas en js, aunque no usa
-                tantas opciones como otras librerias tiene una buena base para
-                manipular fechas en js
-            </p>
+                <p>
+                    Libreria simple para trabajar con fechas en js, aunque no usa
+                    tantas opciones como otras librerias tiene una buena base para
+                    manipular fechas en js
+                </p>
+            </Card>
 
-            <h1>NeoFetch</h1>
+            <Card>
+                <h1>NeoFetch</h1>
 
-            <p>
-                wraper interesante para manejar las peticiones enm fetch de una manera simple
-            </p>
+                <p>
+                    wraper interesante para manejar las peticiones enm fetch de una manera simple
+                </p>
+            </Card>
+
         </>
     )
 }
