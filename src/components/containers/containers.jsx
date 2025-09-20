@@ -7,3 +7,11 @@ export function DivHome({children}){
         </div>
     )
 }
+
+export function DivCenter({children}){
+    return(
+        <div className="div-center">
+            {children}
+        </div>
+    )
+} 
