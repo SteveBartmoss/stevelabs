@@ -19,6 +19,12 @@ export function Proyecst(){
 
             <h1>CronosJs</h1>
 
+            <p>
+                Libreria simple para trabajar con fechas en js, aunque no usa 
+                tantas opciones como otras librerias tiene una buena base para 
+                manipular fechas en js
+            </p>
+
             <h1>NeoFetch</h1>
         </>
     )
