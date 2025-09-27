@@ -1,5 +1,5 @@
 import { Card } from "../components/card/card";
-import { DivCenter } from "../components/containers/containers";
+import { DivCenter, DivRow } from "../components/containers/containers";
 
 
 export function Proyecst() {
@@ -11,35 +11,38 @@ export function Proyecst() {
                 <p>
                     Los siguientes proyectos tiene la licencia GNU
                 </p>
+
+                <DivRow>
+                    <Card>
+                        <h1>HttpClient</h1>
+
+                        <p>
+                            Un cliente ligero para probar apis, que no requiere nada mas que la
+                            pila de tecnologias de node que ya se suele usar para desarrollar en
+                            frame works como nest, express, react, vue o angular
+                        </p>
+                    </Card>
+
+                    <Card>
+                        <h1>CronosJs</h1>
+
+                        <p>
+                            Libreria simple para trabajar con fechas en js, aunque no usa
+                            tantas opciones como otras librerias tiene una buena base para
+                            manipular fechas en js
+                        </p>
+                    </Card>
+
+                    <Card>
+                        <h1>NeoFetch</h1>
+
+                        <p>
+                            wraper interesante para manejar las peticiones enm fetch de una manera simple
+                        </p>
+                    </Card>
+                </DivRow>
+                
             </DivCenter>
-
-            <Card>
-                <h1>HttpClient</h1>
-
-                <p>
-                    Un cliente ligero para probar apis, que no requiere nada mas que la
-                    pila de tecnologias de node que ya se suele usar para desarrollar en
-                    frame works como nest, express, react, vue o angular
-                </p>
-            </Card>
-
-            <Card>
-                <h1>CronosJs</h1>
-
-                <p>
-                    Libreria simple para trabajar con fechas en js, aunque no usa
-                    tantas opciones como otras librerias tiene una buena base para
-                    manipular fechas en js
-                </p>
-            </Card>
-
-            <Card>
-                <h1>NeoFetch</h1>
-
-                <p>
-                    wraper interesante para manejar las peticiones enm fetch de una manera simple
-                </p>
-            </Card>
 
         </>
     )
