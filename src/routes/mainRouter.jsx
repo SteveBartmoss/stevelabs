@@ -5,6 +5,7 @@ import { NavBar } from "../components/navbar/navbar";
 import { Footer } from "../components/footer/footer";
 import { DivHome } from "../components/containers/containers";
 import { Proyecst } from "../pages/proyects";
+import { NeofetchMain } from "../pages/neofetch/neofetchMain";
 
 
 export function MainRouter() {
@@ -16,6 +17,7 @@ export function MainRouter() {
                     <Route path="/" element={<Home />} />
                     <Route path="/profile" element={<Profile />} />
                     <Route path="/proyectos" element={<Proyecst />} />
+                    <Route path="/neofetch" element={<NeofetchMain />} />
                 </Routes>
             </DivHome>
             <Footer />
