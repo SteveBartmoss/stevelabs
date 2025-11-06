@@ -54,6 +54,19 @@ export function Profile() {
                     HighPower
                     2025 - Actual
                 </p>
+
+                <p>
+                    Desarrollador full stack
+                </p>
+
+                <p>
+                    Tecnologia que uso
+                </p>
+
+                <p>
+                    React
+                </p>
+                
             </DivCenter>
         </>
     )
