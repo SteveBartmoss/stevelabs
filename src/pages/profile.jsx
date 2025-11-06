@@ -37,6 +37,23 @@ export function Profile() {
                 </pre>
 
                 <h1>Te interesa algun proyecto ? Contacta conmigo</h1>
+
+                <h1>Experiencia</h1>
+
+                <p>
+                    Bansi SA
+                    2022-2024
+                </p>
+
+                <p>
+                    Grupo Carsol
+                    2024-2025
+                </p>
+
+                <p>
+                    HighPower
+                    2025 - Actual
+                </p>
             </DivCenter>
         </>
     )
