@@ -8,6 +8,10 @@ export function Home() {
                 <h1>Home</h1>
 
                 <p>Equipo de programacion dedicado a ofrecer software a la medida, opciones de software gratuito, proyectos de codigo abierto y tutoriales</p>
+
+                <h1>Proyectos actuales</h1>
+
+                <p>SimpleCrm</p>
             </DivCenter>
         </>
     )
