@@ -12,7 +12,6 @@ import { CronosMain } from "../pages/cronosjs/cronosMain";
 export function MainRouter() {
     return (
         <BrowserRouter>
-            <NavBar />
             <DivHome>
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -22,7 +21,6 @@ export function MainRouter() {
                     <Route path="/neofetch" element={<NeofetchMain />} />
                 </Routes>
             </DivHome>
-            <Footer />
         </BrowserRouter>
     )
 }
