@@ -23,3 +23,19 @@ export function DivRow({children}){
         </div>
     )
 }
+
+export function MainContainer({children}){
+    return(
+        <main className="scroll-container">
+            {children}
+        </main>
+    )
+}
+
+export function Panel({children}){
+    return(
+        <section className="panel">
+            {children}
+        </section>
+    )
+}
