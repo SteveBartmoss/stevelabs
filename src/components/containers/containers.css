@@ -1,5 +1,4 @@
 .div-home{
-    height: 80vh;
     width: 100vw;
     flex-direction: row;
 }
@@ -12,4 +11,27 @@
 .div-row{
     display: flex;
     flex-direction: row;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  flex-direction: column;
+}
+
+.panel {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel > * {
+  max-width: 680px;
+  width: 100%;
 }
